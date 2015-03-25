@@ -1,0 +1,848 @@
+﻿<?xml version='1.0'?>
+<?mso-application progid='Excel.Sheet'?>
+<s:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Worksheet s:Name="export">
+    <s:Table>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">Ticker</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Exchange</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Name</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Position</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">VWAP</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Cost</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Market Quote</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Market Value</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">P/L</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Currency</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">VType</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AAPL.O</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NSQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">APPLE INC</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">3,531</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">107.25</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-378,699.75</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">109.40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">386,291.40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7,591.65</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">AMP</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">AMERIPRISE FINCL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2,413</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">123.89</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-298,946.57</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">126.44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">305,099.72</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">6,153.15</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">ATDb.TO</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">TOR</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">ALIMENT TD B</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">859</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38.30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-32,899.70</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38.00</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">32,642.00</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-257.70</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">CAD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">BA</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">BOEING CO</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2,836</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">124.48</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-353,025.28</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">126.03</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">357,421.08</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">4,395.80</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">CELG.O</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NSQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">CELGENE CORP</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,922</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">105.16</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-202,117.52</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">107.41</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">206,442.02</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">4,324.50</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">EOG</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">EOG RESOURCES</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">3,398</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">93.15</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-316,523.70</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">93.32</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">317,101.36</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">577.66</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">ESZ4</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">IOM</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">EMINI S&amp;P DEC4  </s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-48</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2,005.50</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">2,011.25</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">0.00</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-13,800.00</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Future</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">MGA</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">MAGNA INTNL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,355</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">97.69</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-132,369.95</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">97.66</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">132,329.30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-40.65</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">MHH</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">ASQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">MASTECH HOLDINGS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">32,151</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">11.85</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-380,989.35</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">11.62</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">373,594.62</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-7,394.73</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">SNY</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SANOFI</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,435</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">45.19</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-64,847.65</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">45.78</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">65,694.30</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">846.65</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">TD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">TORONTO DOMIN</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7,558</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">48.56</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-367,016.48</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">48.77</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">368,603.66</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,587.18</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">VNQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">VNGRD REIT</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">12,893</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">77.42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-998,176.06</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">79.68</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,027,314.24</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">29,138.18</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">WFC</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NYS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">WELLS FARGO &amp; CO</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,482</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">52.18</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-77,330.76</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">53.37</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">79,094.34</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,763.58</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">WFM.O</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">NSQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">WHOLE FOODS MKT</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">3,395</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">38.22</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-129,756.90</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39.95</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">135,630.25</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">5,873.35</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLB</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR MATRIALS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">6,335</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">46.9345</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-297,330.0575</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">48.06</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">304,460.10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7,130.0425</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLE</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR ENRGY</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">5,288</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">86.03</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-454,926.64</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">86.04</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">454,979.52</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">52.88</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLF</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR FNANCIAL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">27,684</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">23.42</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-648,359.28</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">23.93</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">662,478.12</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">14,118.84</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLI</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR INDUSTRL</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7,439</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">54.22</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-403,342.58</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">55.14</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">410,186.46</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">6,843.88</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLK</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR TECHNLGY</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">27,696</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">39.79</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-1,102,023.84</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">40.71</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">1,127,504.16</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">25,480.32</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLP</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR CONS STP</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">16,377</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">46.17</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-756,126.09</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">46.89</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">767,917.53</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">11,791.44</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLU</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR UTILITIS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">6,080</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">44.48</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-270,438.40</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">45.77</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">278,281.60</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">7,843.20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLV</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR HLT CRE</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">14,372</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">65.69</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-944,096.68</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">67.35</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">967,954.20</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">23,857.52</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+      <s:Row>
+        <s:Cell>
+          <s:Data s:Type="String">XLY</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">PCQ</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">SS SPDR CONS DIS</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">13,518</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">66.86</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">-903,813.48</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">68.10</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">920,575.80</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">16,762.32</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">USD</s:Data>
+        </s:Cell>
+        <s:Cell>
+          <s:Data s:Type="String">Stock</s:Data>
+        </s:Cell>
+      </s:Row>
+    </s:Table>
+  </s:Worksheet>
+</s:Workbook>
